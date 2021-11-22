@@ -1,11 +1,12 @@
 {
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "name": "@nikhilkesari/nikhilkesari",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "testing",
-  "main": "index.js",
   "scripts": {
     "build": "snowpack build",
     "start": "snowpack dev"
