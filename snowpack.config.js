@@ -7,6 +7,7 @@ const snowPackConfig = {
     minify: true,
     target: "es2018",
   },
+  
 };
 
 module.exports = snowPackConfig;

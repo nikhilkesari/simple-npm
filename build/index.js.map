@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../build/packages/snowplow/src/client/index.js", "../build/index.js"],
-  "sourcesContent": ["function snowplowLog() {\n  console.log(\"From Snowplow\");\n}\n\nexport { snowplowLog };\n", "import { snowplowLog } from \"./packages/snowplow/index.js\";\nsnowplowLog();\n\n"],
-  "mappings": "AAAA,YAAuB,CACrB,QAAQ,IAAI,iBCAd",
-  "names": []
-}

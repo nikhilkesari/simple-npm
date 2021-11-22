@@ -1,6 +1,10 @@
 {
-  "name": "npmpack",
-  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "@nikhilkesari/nikhilkesari",
+  "version": "1.0.5",
   "description": "testing",
   "main": "index.js",
   "scripts": {
@@ -22,5 +26,6 @@
   "homepage": "https://github.com/nikhilkesari/simple-npm#readme",
   "devDependencies": {
     "snowpack": "^3.8.8"
-  }
+  },
+  "dependencies": {}
 }
