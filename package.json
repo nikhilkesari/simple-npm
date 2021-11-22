@@ -1,4 +1,7 @@
 {
+  "workspaces": [
+    "packages/*"
+  ],
   "name": "@nikhilkesari/nikhilkesari",
   "version": "1.0.1",
   "description": "testing",
