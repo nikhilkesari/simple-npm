@@ -1,0 +1,26 @@
+{
+  "name": "npmpack",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+    "build": "snowpack build",
+    "start": "snowpack dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nikhilkesari/simple-npm.git"
+  },
+  "keywords": [
+    "testing"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilkesari/simple-npm/issues"
+  },
+  "homepage": "https://github.com/nikhilkesari/simple-npm#readme",
+  "devDependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
