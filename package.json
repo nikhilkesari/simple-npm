@@ -1,9 +1,8 @@
 {
-  "workspaces": {
-    "packages": [
-      "./packages/*"
-    ]
-  },
+  "private": true,
+   "workspaces": [
+    "packages/*"
+  ],
   "name": "@nikhilkesari/nikhilkesari",
   "version": "1.0.9",
   "description": "testing",
