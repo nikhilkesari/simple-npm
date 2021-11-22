@@ -1,11 +1,11 @@
 {
   "workspaces": {
     "packages": [
-      "packages/*"
+      "./packages/*"
     ]
   },
   "name": "@nikhilkesari/nikhilkesari",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "testing",
   "scripts": {
     "build": "snowpack build",
