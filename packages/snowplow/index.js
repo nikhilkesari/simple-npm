@@ -1,1 +1,3 @@
-export { snowplowLog } from "./src/client";
+export function helloSnowplow() {
+    console.log("Hello from Snowplow");
+}

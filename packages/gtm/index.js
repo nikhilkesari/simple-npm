@@ -1,1 +1,3 @@
-export { gtmLog } from "./src/client";
+export function helloGTM() {
+    console.log("Hello From GTM")
+}
