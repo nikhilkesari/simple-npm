@@ -1,13 +1,16 @@
-/** @type {import("snowpack").SnowpackUserConfig } */
+const plugins = [
+  // ...
+  [
+    "snowpack-plugin-rollup-bundle",
+    {
+      entrypoints: ["build/packages/gtm", "build/packages/snowplow"],
+    },
+  ],
+];
 const snowPackConfig = {
   mode: "production",
   workspaceRoot: "./packages/*",
-  optimize: {
-    bundle: true,
-    minify: true,
-    target: "es2018",
-  },
-  
+  plugins: plugins,
 };
 
 module.exports = snowPackConfig;
