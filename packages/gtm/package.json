@@ -1,6 +1,6 @@
 {
   "name": "@nikhilkesari/gtm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/nikhilkesari/simple-npm/issues"
   },
-  "homepage": "https://github.com/nikhilkesari/simple-npm#readme"
+  "homepage": "https://github.com/nikhilkesari/simple-npm#readme",
+  "gitHead": "baeee83c59f7ca40547d86f05806709ee6049644"
 }
