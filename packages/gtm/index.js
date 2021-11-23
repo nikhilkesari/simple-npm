@@ -1,3 +1,1 @@
-export function helloGTM() {
-    console.log("Hello From GTM")
-}
+export * from './src';

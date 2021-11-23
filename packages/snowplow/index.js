@@ -1,3 +1,1 @@
-export function helloSnowplow() {
-    console.log("Hello from Snowplow");
-}
+export * from './src';

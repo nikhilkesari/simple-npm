@@ -6,8 +6,7 @@
   "version": "2.0.16",
   "description": "testing",
   "scripts": {
-    "build": "snowpack build",
-    "start": "snowpack dev"
+    "build": "rollup --config"
   },
   "repository": {
     "type": "git",
@@ -23,8 +22,11 @@
   },
   "homepage": "https://github.com/nikhilkesari/simple-npm#readme",
   "devDependencies": {
+    "@rollup/plugin-multi-entry": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.6",
+    "lerna": "^4.0.0",
     "rollup": "^2.60.1",
-    "snowpack": "^3.8.8",
+    "rollup-plugin-node-resolve": "^5.2.0",
     "snowpack-plugin-rollup-bundle": "^0.4.4"
   }
 }
