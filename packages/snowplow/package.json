@@ -1,5 +1,5 @@
 {
-  "name": "snowplow",
+  "name": "@nikhilkesari/snowplow",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
