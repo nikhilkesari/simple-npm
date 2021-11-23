@@ -1,10 +1,9 @@
 {
- 
   "workspaces": [
     "packages/*"
   ],
   "name": "@nikhilkesari/nikhilkesari",
-  "version": "2.0.13",
+  "version": "2.0.14",
   "description": "testing",
   "scripts": {
     "build": "snowpack build",
