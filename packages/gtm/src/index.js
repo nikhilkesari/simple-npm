@@ -1,1 +1,1 @@
-export * from './gtm'
+export { helloGTM } from './gtm'
