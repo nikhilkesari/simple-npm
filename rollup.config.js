@@ -1,4 +1,4 @@
-
+import { babel } from "@rollup/plugin-babel";
 export default [
   {
     input: "./packages/gtm/src/index.js",
@@ -7,6 +7,7 @@ export default [
       format: "esm",
       name: "gtm",
     },
+    plugins: [babel({ babelHelpers: "bundled" })],
   },
   {
     input: "./packages/snowplow/src/index.js",
@@ -15,5 +16,6 @@ export default [
       format: "esm",
       name: "snowplow",
     },
+    plugins: [babel({ babelHelpers: "bundled" })],
   },
 ];
