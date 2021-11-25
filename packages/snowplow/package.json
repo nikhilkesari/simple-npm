@@ -1,6 +1,6 @@
 {
   "name": "@nikhilkesari/snowplow",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -9,7 +9,6 @@
   "files": [
     "dist"
   ],
-  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nikhilkesari/simple-npm.git"
